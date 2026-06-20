@@ -1,4 +1,3 @@
-Result Size : 668 x 588
 #include <stdio.h>
 ​ int main()
 {
