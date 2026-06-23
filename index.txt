@@ -3,3 +3,5 @@
 3.Comments.c
 4.Variable.C
 5.Datatypes.C
+6.TypeConversion.c
+7.Operator.c
