@@ -3,7 +3,6 @@ Comments in C
 Comments can be used to explain code, and to make it more readable.
 It can also be used to prevent execution when testing alternative code.
 */
-// 2.Above are Multiline comment
 #include <stdio.h>
 int main()
 {
@@ -11,3 +10,8 @@ int main()
     printf("Hello World!");
     return 0;
 }
+
+/*
+    This is a
+    Multiline Comment
+*/

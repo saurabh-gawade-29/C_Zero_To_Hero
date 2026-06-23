@@ -42,9 +42,9 @@ int main()
 }
 
 //! Add Variables Together
-Result Size : 668 x 588
+// Result Size : 668 x 588
 #include <stdio.h>
-​ int main()
+int main()
 {
     int x = 5;
     int y = 6;

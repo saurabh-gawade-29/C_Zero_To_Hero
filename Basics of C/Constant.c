@@ -7,6 +7,6 @@ This will declare the variable as "constant", which means unchangeable and read-
 int main()
 {
     const int myNum = 15; // myNum will always be 15
-    myNum = 10;
-    printf(myNum, "myNum") // error: assignment of read-only variable 'myNum'
+    // myNum = 10;
+    printf(myNum, "myNum"); // error: assignment of read-only variable 'myNum'
 }

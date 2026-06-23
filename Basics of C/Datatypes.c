@@ -1,5 +1,5 @@
 #include <stdio.h>
-​int main()
+int main()
 {
     // Create variables
     int myNum = 5;           // Integer (whole number)
@@ -71,7 +71,7 @@ Use int when you need to store a whole number without decimals, like 35 or 1000,
 //! INT
 
 #include <stdio.h>
-​int main()
+int main()
 {
     int myNum = 1000;
     printf("%d", myNum);
