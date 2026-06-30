@@ -58,7 +58,7 @@ int main()
 
 int main()
 {
-    char myText[] = "Hello";
+    char myText[] = "Hello"; // [H, e, l, l, o, \0] - null character
     printf("%s", myText);
     return 0;
 }
@@ -82,7 +82,7 @@ int main()
 #include <stdio.h>
 int main()
 {
-    float myNum = 5.75;
+    float myNum = 5.75; // capacity of 4 bytes
     printf("%f", myNum);
     return 0;
 }
@@ -91,7 +91,7 @@ int main()
 #include <stdio.h>
 int main()
 {
-    double myNum = 19.99;
+    double myNum = 19.99; // capacity of 8 bytes
     printf("%lf", myNum);
     return 0;
 }
