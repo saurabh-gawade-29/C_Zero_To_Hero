@@ -14,7 +14,12 @@ int main()
     float num = 9;
     int x = 5;
     int y = 2;
-    float sum = (float)x / y;
-    printf("Explicit Typecast %.1f \n", sum);
-    printf("Implicit typecast %f \n", num);
+    // implicit conversion
+    printf("%f\n", num);   // 9 -> 9.000000
+    // explicit conversion
+    printf("%f\n", (float) x / y); // 5/2 -> 2
+
+    // Conversion -> 5 -> 5.000000
+    // 5 -> 5.00000000000000....15
+    // A -> possible
 }

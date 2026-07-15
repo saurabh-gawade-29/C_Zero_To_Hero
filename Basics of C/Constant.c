@@ -8,5 +8,6 @@ int main()
 {
     const int myNum = 15; // myNum will always be 15
     // myNum = 10;
-    printf(myNum, "myNum"); // error: assignment of read-only variable 'myNum'
+    printf("%d", myNum); // This will print 10
+    return 0;
 }
