@@ -8,6 +8,8 @@ int main()
 {
     const int myNum = 15; // myNum will always be 15
     // myNum = 10;
+    const float pi = 3.14;
+    const float gravity = 9.81;
     printf("%d", myNum); // This will print 10
     return 0;
 }
